@@ -11,5 +11,6 @@ public class JavaEndOfFile {
             System.out.println(count +" "+ line);
             count++;
         }
+        scanner.close();
     }
 }
